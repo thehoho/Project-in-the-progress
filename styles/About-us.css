@@ -18,6 +18,7 @@
   padding: 52px 27px 52px 42px;
   border-bottom: 3px solid var(--primary-color);
   background-color: var(--light-blue-color);
+    transition: ease-in-out 0.6s;
 }
 
 #about-us .item-con:hover {
