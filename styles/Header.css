@@ -1,0 +1,130 @@
+header {
+  height: 500px;
+}
+header .top-left-image {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  max-height: 150px;
+}
+header .bottom-left-image {
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  max-height: 125px;
+}
+
+header .background {
+  grid-template-columns: 6fr 4fr;
+  z-index: 1;
+}
+header .background .left {
+  background-color: var(--secondary-color);
+}
+header .background .right {
+  background-color: var(--primary-color);
+}
+
+header .logo-svg-a {
+  width: 10%;
+}
+
+header .dropdown-menu {
+  position: relative;
+}
+
+header .dropdown-content {
+  display: none;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	padding: 10px 0;
+	margin: 0;
+	background-color: var(--white);
+	border: 0;
+	width: 230px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 100px rgb(0 0 0 / 15%);
+	border-radius: 10px;
+  z-index: 4;
+}
+
+header .dropdown-content a {
+  color: var(--primary-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+header .dropdown-content a:hover {
+  background-color: var(--secondary-color);
+	color: var(--white);
+	transition: all .6s ease-in-out;
+}
+
+header .dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+header .menu {
+  display: flex;
+  gap: 5px;
+}
+
+header .menu p {
+  color: var(--white);
+}
+
+header .menu img {
+  object-fit: contain;
+}
+
+header .content {
+  z-index: 3;
+}
+
+header .header-content-container {
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -20%;
+  z-index: 3;
+}
+
+header .left-section{
+  color: var(--gray);
+} 
+
+header .btn{
+	  background-color: var(--primary-color);
+    padding: 0;
+    min-width: 206px;
+    height: 58px;
+    width: 206px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 55px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+header .right-section {
+  position: relative;
+}
+header .front-img {
+  position: relative;
+  z-index: 3;
+	width: 370px;
+}
+
+header .back-img {
+  position: absolute;
+  top: -25px;
+  right: -35px;
+  z-index: 2;
+}

@@ -1,0 +1,35 @@
+footer {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+footer .links-container .link {
+	border-right: 1px white solid;
+}
+footer .links-container .link:last-of-type {
+	border-right: none;
+}
+
+footer .links-container a {
+	margin-left: 22px; 
+	margin-right: 22px;
+	font-size: 18px;
+}
+
+footer .links-container a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	font-size: 16px;
+}
+
+footer .social-icons {
+	gap: 25px;
+}
+
+footer .social-icons img {
+	width: 26px; 
+	height: 26px;
+}
+
