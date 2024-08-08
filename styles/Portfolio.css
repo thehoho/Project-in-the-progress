@@ -1,16 +1,16 @@
-#portfolio .spacer{
+#portfolio .spacer {
   height: 100px;
 }
 
-#portfolio .portfolio-con{
+#portfolio .portfolio-con {
   width: 100%;
 }
 
-#portfolio .header-title-con{
+#portfolio .header-title-con {
   text-align: center;
 }
 
-#portfolio h5{
+#portfolio h5 {
   color: var(--primary-color);
   font-size: 20px;
   line-height: 24px;
@@ -18,48 +18,76 @@
   font-weight: 500;
 }
 
-#portfolio h2{
+#portfolio h2 {
   color: var(--black-color);
   font-size: 46px;
 }
 
-#portfolio p{
+#portfolio p {
   margin-bottom: 55px;
 }
 
-#portfolio .nav-tabs{
+#portfolio .nav-tabs {
   gap: 40px;
   margin-bottom: 64px;
 }
 
-#portfolio a{
+#portfolio a {
   font-weight: 500;
   color: var(--black-color);
 }
 
-#portfolio :target{
+#portfolio :target {
   color: var(--white);
   background-color: var(--primary-color);
   padding: 8px 20px;
   border-radius: 20px;
-  transition: background-color 0.6s,color 0.6s;
+  transition: background-color 0.6s, color 0.6s;
 }
 
-#portfolio .tab-content{
+#portfolio .tab-content {
   margin-bottom: 60px;
 }
 
-#portfolio .grid{
+#portfolio .grid {
   grid-template-columns: 1fr 1.5fr 1fr;
   gap: 2px;
 }
 
-#portfolio .img-main{
-padding-top: 30%;
+#portfolio .img-main {
+  padding-top: 30%;
 }
 
-#portfolio .fix{
+#portfolio .fix {
   width: 500px;
   height: 500px;
   object-fit: cover;
+}
+
+#portfolio .btn-con a {
+  display: flex;
+  justify-content: center;
+  width: 206px;
+}
+
+#portfolio button {
+  background-color: var(--primary-color);
+  max-width: 206px;
+  height: 58px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 55px;
+  color: var(--white);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color ease-in-out 0.6s, color ease-in-out 0.6s;
+}
+
+#portfolio button:hover {
+  background-color: var(--teal);
+  color: var(--white);
+  transition: ease-in-out 0.6s;
 }
