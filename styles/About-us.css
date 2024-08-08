@@ -37,7 +37,7 @@
 }
 
 #about-us .item-con img {
-  filter: hue-rotate(160deg);
+  filter: hue-rotate(220deg) brightness(180%);
   margin-bottom: 27px;
 }
 

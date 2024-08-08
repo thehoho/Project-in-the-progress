@@ -18,15 +18,28 @@ header .background {
   grid-template-columns: 6fr 4fr;
   z-index: 1;
 }
+
 header .background .left {
   background-color: var(--secondary-color);
 }
+
 header .background .right {
   background-color: var(--primary-color);
 }
 
+header .align-flex-start{
+  align-items: top;
+}
+
 header .logo-svg-a {
-  width: 10%;
+  width: 13%;
+  height: 160px
+}
+
+header .logo-svg{
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
 }
 
 header .dropdown-menu {
@@ -37,7 +50,7 @@ header .dropdown-content {
   display: none;
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 50px;
 	padding: 10px 0;
 	margin: 0;
 	background-color: var(--white);
@@ -119,12 +132,13 @@ header .right-section {
 header .front-img {
   position: relative;
   z-index: 3;
-	width: 370px;
+	width: 360px;
+  padding-top: 10px;
 }
 
 header .back-img {
   position: absolute;
-  top: -25px;
+  top: -15px;
   right: -35px;
   z-index: 2;
 }
