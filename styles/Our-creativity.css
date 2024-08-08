@@ -1,5 +1,7 @@
 #our-creativity {
   background-color: var(--primary-color);
+  padding-top: 50px;
+  height: 764px;
 }
 
 #our-creativity .flex {
