@@ -1,0 +1,151 @@
+#our-expertise {
+  padding-top: 143px;
+  padding-bottom: 153px;
+}
+
+#our-expertise .flex {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#our-expertise .flex-left,
+.flex-right {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#our-expertise h5 {
+  color: var(--primary-color);
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+#our-expertise h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 53px;
+  color: var(--black-color);
+  margin-bottom: 20px;
+}
+
+#our-expertise p {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+#our-expertise .percentage {
+  float: right;
+  position: relative;
+  right: -5px;
+}
+
+#our-expertise .progress {
+  overflow: visible;
+  height: 7px;
+  margin-bottom: 10px;
+  background-color: var(--light-blue-color);
+  border-radius: 3.5px;
+}
+
+#our-expertise .progress-bar {
+  float: left;
+  height: 100%;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  animation: progress-animation 5s ease-in-out;
+  border-radius: 3.5px;
+  position: relative;
+  background-color: var(--primary-color);
+}
+
+#our-expertise .bar1 {
+  width: 70%;
+}
+
+#our-expertise .bar2 {
+  width: 60%;
+}
+
+#our-expertise .bar3 {
+  width: 80%;
+}
+
+#our-expertise .bar4 {
+  width: 65%;
+}
+
+#our-expertise .grid {
+  grid-template-columns: 48.5% 48.5%;
+  gap: 30px 30px;
+}
+
+#our-expertise .box-con {
+  border-bottom: none;
+  padding: 36px;
+  text-align: center;
+  width: auto;
+  height: 287px;
+  background-color: var(--light-blue-color);
+}
+
+#our-expertise figure {
+  background-color: var(--white);
+  border-radius: 100px;
+  width: 124px;
+  line-height: 114px;
+  height: 124px;
+  text-align: center;
+  margin: 0 auto 14px;
+}
+
+#our-expertise figure img {
+  vertical-align: middle;
+  filter: hue-rotate(220deg);
+}
+
+#our-expertise .box-con span {
+  color: var(--black-color);
+  font-size: 38px;
+  line-height: 38px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: block;
+}
+
+#our-expertise .box-con p {
+  font-size: 20px;
+}
+
+#our-expertise .vector {
+  position: absolute;
+  right: -43px;
+  z-index: -1;
+  top: 0;
+  filter: hue-rotate(220deg);
+}
+
+#our-expertise .m-tp {
+  margin-top: 38px;
+}
+
+#our-expertise .m-tp-ng {
+  margin-top: -38px;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+}
