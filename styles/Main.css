@@ -1,48 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --primary-color: #4c9796;
-    --black-color: #000000;
-    --secondary-color: #25282c;
-    --grey-color: #323131;
-    --text-color: #45455d;
-    --purple-color: #346477;
-    --dark-blue-color: #00002b;
-    --light-blue-color: #f3faff;
-    --light-purple-bg: #519797;
-    --yellow-color: #ffde00;
-    --stroke-color: #97b7cd;
+  --primary-color: #4c9796;
+  --black-color: #000000;
+  --secondary-color: #25282c;
+  --grey-color: #323131;
+  --text-color: #45455d;
+  --purple-color: #346477;
+  --dark-blue-color: #00002b;
+  --light-blue-color: #f3faff;
+  --light-purple-bg: #519797;
+  --yellow-color: #ffde00;
+  --stroke-color: #97b7cd;
 
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
 }
 
 body {
-	margin: 0;
-	color: rgb(69, 69, 93);
-	font-family: Barlow, sans-serif;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 1;
+  margin: 0;
+  color: rgb(69, 69, 93);
+  font-family: Barlow, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 h1,
@@ -52,94 +52,100 @@ h4,
 h5,
 h6,
 span {
-    font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .container {
-	max-width: 1140px;
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-	box-sizing: border-box;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
 }
 
 p {
-	line-height: 31px;
+  line-height: 31px;
 }
 
 a {
-	color: unset; 
-	text-decoration: none;
+  color: unset;
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .full-width {
-	width: 100%;
+  width: 100%;
 }
 
 .full-height {
-	height: 100%;
+  height: 100%;
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex-column {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 .align-center {
-	align-items: center; 
+  align-items: center;
 }
 .align-flex-start {
-	align-items: flex-start;
+  align-items: flex-start;
 }
 .align-baseline {
-	align-items: baseline;
+  align-items: baseline;
 }
 
 .justify-center {
-	justify-content: center;
+  justify-content: center;
 }
 .justify-space-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .grid {
-	display: grid;
+  display: grid;
 }
 
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .position-absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .py-40 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pt-40 {
-	padding-top: 40px; 
+  padding-top: 40px;
 }
 .pb-40 {
-	padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 .pb-20 {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .mb-20 {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.py-space {
+  padding-top: 143px;
+  padding-bottom: 153px;
 }
