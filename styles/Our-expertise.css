@@ -149,3 +149,48 @@
     width: 0%;
   }
 }
+
+@media screen and (max-width: 820px) {
+  #our-expertise .flex {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+  }
+  #our-expertise .box-con {
+    padding: 20px 15px;
+    height: auto;
+  }
+  #our-expertise .percentage {
+    float: none;
+    margin-bottom: 10px;
+  }
+  #our-expertise .vector {
+    display: none;
+  }
+  #our-expertise .m-tp-ng {
+    margin-top: 0;
+  }
+  #our-expertise .m-tp {
+    margin-top: 0;
+  }
+  #our-expertise figure {
+    width: 90px;
+    line-height: 80px;
+    height: 90px;
+    margin: 0 auto 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #our-expertise .flex {
+    gap: 15px;
+  }
+  #our-expertise .box-con span {
+    font-size: 21px;
+    line-height: 12px;
+  }
+  #our-expertise .box-con p{
+    line-height: 21px;
+  }
+}

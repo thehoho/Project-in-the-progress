@@ -149,3 +149,33 @@ ul {
   padding-top: 143px;
   padding-bottom: 153px;
 }
+
+@media (max-width: 576px) {
+  .container {
+      max-width:540px
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+      max-width:720px
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+      max-width:960px
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+      max-width:1140px
+  }
+}
+
+@media screen and (max-width: 820px) {
+  body {
+      font-size: 16px;
+  }
+}

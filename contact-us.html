@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+    <link rel="stylesheet" href="styles/Main.css" />
+    <link rel="stylesheet" href="styles/Header.css" />
+    <link rel="stylesheet" href="styles/Footer.css" />
+    <link rel="stylesheet" href="styles/About-us.css" />
+    <link rel="stylesheet" href="styles/Our-creativity.css" />
+    <link rel="stylesheet" href="styles/Portfolio.css" />
+    <link rel="stylesheet" href="styles/Our-expertise.css" />
+    <link rel="stylesheet" href="styles/Digital-creative.css" />
+    <link rel="stylesheet" href="styles/testimonials.css" />
+    <link rel="stylesheet" href="styles/newsletter.css" />
+    <link rel="stylesheet" href="styles/Partners.css" />
+    <title>Aurora Designs - Contact Us</title>
+  </head>
+  <body>
+    <header class="full-width grid position-relative">
+      <img
+        class="top-left-image position-absolute vector"
+        src="https://html.designingmedia.com/exolve/assets/images/vector3.png"
+      />
+      <img
+        class="bottom-left-image position-absolute pb-40 vector"
+        src="https://html.designingmedia.com/exolve/assets/images/vector2.png"
+      />
+      <div class="background position-absolute grid full-height full-width">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+
+      <div class="content position-relative full-height full-width">
+        <div
+          class="container flex align-flex-start justify-space-between py-40 nav"
+        >
+          <a href="#" class="logo-svg-a"
+            ><img
+              class="logo-svg"
+              src="https://auroradesigns.co.uk/wp-content/uploads/2024/08/logomaybe.svg"
+          /></a>
+          <div class="dropdown-menu">
+            <a href="#" class="menu">
+              <p>MENU</p>
+              <img
+                src="https://html.designingmedia.com/exolve/assets/images/menu-icon.png"
+              />
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Projects</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="container flex float-left header-content-container">
+          <div class="left-section">
+            <h1>Be creative</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#"><button class="btn">Our Works</button></a>
+          </div>
+          <div class="right-section position-relative">
+            <img
+              src="https://picsum.photos/id/459/400/
+          "
+              alt="image"
+              class="front-img"
+            />
+            <img
+              src="https://html.designingmedia.com/exolve/assets/images/vector1.png"
+              class="back-img position-absolute top-left vector"
+              alt="back-image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- newsletter-section  -->
+    <section id="newsletter" class="position-relative">
+      <img
+        src="https://html.designingmedia.com/exolve/assets/images/vector10.png"
+        alt="vector"
+        class="vector position-absolute"
+      />
+      <img
+        src="https://html.designingmedia.com/exolve/assets/images/elipse4.png"
+        alt="elipse"
+        class="elipse position-absolute"
+      />
+      <img
+        src="https://html.designingmedia.com/exolve/assets/images/round-shape.png"
+        alt="bg-img"
+        class="position-absolute bg-img"
+      />
+      <div class="container">
+        <div class="newsletter-con position-relative">
+          <div class="newsletter-content">
+            <h5>Get Updates</h5>
+            <h2>
+              Sign Up
+              <br />
+              To Our Newsletter
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+              aliquid? Necessitatibus exercitationem, rerum eius dolores
+              molestias minima? Dolorem.
+            </p>
+            <form action="">
+              <div class="form-group position-relative">
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter Email Address"
+                  name="email"
+                />
+                <button>Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <footer
+        class="full-width flex flex-column align-center justify-center pt-40 pb-40"
+      >
+        <div class="links-container container flex">
+          <div class="link">
+            <a href="#">Home</a>
+          </div>
+          <div class="link">
+            <a href="#">About</a>
+          </div>
+          <div class="link">
+            <a href="#">Services</a>
+          </div>
+          <div class="link">
+            <a href="#">App Design</a>
+          </div>
+          <div class="link">
+            <a href="#">UI/UX</a>
+          </div>
+          <div class="link">
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <p class="copyright mb-20">
+          Copyright
+          <?= date('Y'); ?>, Aurora Designs. All Rights Reserved.
+        </p>
+        <div class="social-icons flex">
+          <a href="">
+            <img
+              src="https://auroradesigns.co.uk/wp-content/uploads/2024/08/facebook-app-symbol.png"
+            />
+          </a>
+          <a href="">
+            <img
+              src="https://auroradesigns.co.uk/wp-content/uploads/2024/08/twitter.png"
+            />
+          </a>
+          <a href="">
+            <img
+              src="https://auroradesigns.co.uk/wp-content/uploads/2024/08/linkedin.png"
+            />
+          </a>
+        </div>
+      </footer>
+      <!-- #colophon -->
+
+      <?php wp_footer(); // WordPress hook for plugins and theme functions to add before the closing body tag ?>
+    </main>
+  </body>
+</html>
